@@ -1,0 +1,5 @@
+CC=g++
+CFLAGS=-I.
+
+connection: connection.o
+	$(CC) -o connection connection.cpp
